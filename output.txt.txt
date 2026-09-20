@@ -1,0 +1,30 @@
+====================================
+           MERGE SORT
+====================================
+Original Array: 324 125 456 218 102 389 275 147
+
+After merging [0..1]: 125 324 456 218 102 389 275 147
+After merging [2..3]: 125 324 218 456 102 389 275 147
+After merging [0..3]: 125 218 324 456 102 389 275 147
+After merging [4..5]: 125 218 324 456 102 389 275 147
+After merging [6..7]: 125 218 324 456 102 389 147 275
+After merging [4..7]: 125 218 324 456 102 147 275 389
+After merging [0..7]: 102 125 147 218 275 324 389 456
+
+Final Sorted Array: 102 125 147 218 275 324 389 456
+Merge Sort Comparisons: 15
+
+====================================
+           QUICK SORT
+====================================
+Original Array: 324 125 456 218 102 389 275 147
+
+Partition 1: Pivot = 147, Array = 125 102 147 218 324 389 275 456
+Partition 2: Pivot = 102, Array = 102 125 147 218 324 389 275 456
+Partition 3: Pivot = 456, Array = 102 125 147 218 324 389 275 456
+Partition 4: Pivot = 275, Array = 102 125 147 218 275 389 324 456
+Partition 5: Pivot = 324, Array = 102 125 147 218 275 324 389 456
+
+Final Sorted Array: 102 125 147 218 275 324 389 456
+Quick Sort Partitions: 5
+Quick Sort Comparisons: 16

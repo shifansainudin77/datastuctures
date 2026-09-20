@@ -1,0 +1,47 @@
+COMPLEXITY ANALYSIS
+
+1. MERGE SORT
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+
+Additional Space: O(n)
+
+Number of merge levels for 8 elements: 3
+
+Number of comparisons for the given implementation:
+15
+
+
+2. QUICK SORT
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2)
+
+Average Additional Space: O(log n)
+Worst Case Additional Space: O(n)
+
+Number of partitions for the given input: 5
+
+Number of comparisons for the given implementation:
+16
+
+
+3. CONCLUSION
+
+Both Merge Sort and Quick Sort correctly sorted the
+given IDs.
+
+Merge Sort provides guaranteed O(n log n) worst-case
+time complexity, while Quick Sort has O(n log n)
+average-case complexity but can reach O(n^2) in the
+worst case.
+
+Merge Sort requires O(n) additional memory, whereas
+Quick Sort generally requires less additional memory.
+
+For large datasets where predictable worst-case
+performance is important, Merge Sort is a suitable
+choice.

@@ -1,0 +1,24 @@
+COMPARISON TABLE
+
+---------------------------------------------------------
+Parameter              Merge Sort        Quick Sort
+---------------------------------------------------------
+Sorting method         Divide & Merge    Divide & Partition
+
+Given input             8 elements        8 elements
+
+Passes/Partitions       3 merge levels    5 partitions
+
+Comparisons             15                16
+
+Best Case               O(n log n)        O(n log n)
+
+Average Case            O(n log n)        O(n log n)
+
+Worst Case              O(n log n)        O(n^2)
+
+Additional Space        O(n)              O(log n) average
+
+Stability               Stable            Generally unstable
+
+---------------------------------------------------------
